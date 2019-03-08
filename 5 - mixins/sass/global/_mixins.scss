@@ -1,0 +1,7 @@
+@mixin danger($size, $bg) {
+  background: $bg;
+  border: 1px solid #0b6c21;
+  color: #107c22;
+
+  font-size: $size;
+}

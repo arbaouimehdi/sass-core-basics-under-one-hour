@@ -1,0 +1,29 @@
+// Global
+@import "global/reset";
+@import "global/mixins";
+
+// UI
+@import "ui/button";
+@import "ui/alert";
+
+%danger {
+  background: #befccc;
+  border: 1px solid #0b6c21;
+  color: #107c22;
+
+  font-size: 17px;
+
+  span {
+    font-style: italic;
+  }
+}
+
+.alert--danger {
+  @include danger;
+  @extend %danger;
+}
+
+.btn--danger {
+  @include danger;
+  @extend %danger;
+}

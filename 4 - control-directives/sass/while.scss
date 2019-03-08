@@ -1,0 +1,20 @@
+// for loop
+
+// 1 => red
+// 2 => green
+// 3 => blue
+$colors: red green blue;
+
+// @debug (nth($colors, 3));
+
+// @for $i from 1 through 3 {
+//   @debug nth($colors, $i);
+// }
+
+$i: 4;
+
+@while $i > 0 {
+  @debug $i;
+  // @debug nth($colors, $i);
+  $i: $i - 2;
+}

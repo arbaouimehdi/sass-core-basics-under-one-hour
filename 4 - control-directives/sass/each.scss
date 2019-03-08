@@ -1,0 +1,27 @@
+$content-theme: (
+  bg: #444,
+  h3: red,
+  p: blue,
+);
+
+// @debug (map-get($content-theme, p));
+
+@each $key, $value in $content-theme {
+  @if ($key == bg) {
+    .main-content {
+      background: map-get($content-theme, $key);
+    }
+  }
+
+  @if ($key == h3) {
+    #{$key} {
+      color: map-get($content-theme, $key);
+    }
+  }
+
+  @if ($key == p) {
+    #{$key} {
+      color: map-get($content-theme, $key);
+    }
+  }
+}

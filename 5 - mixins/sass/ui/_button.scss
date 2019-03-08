@@ -1,0 +1,8 @@
+.btn {
+  padding: 5px;
+  margin: 10px;
+}
+
+.btn--danger {
+  @include danger(17px, #d0fed9);
+}

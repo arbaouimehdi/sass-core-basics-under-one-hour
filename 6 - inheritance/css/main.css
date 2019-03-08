@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+a {
+  text-decoration: none; }
+
+.btn {
+  padding: 5px;
+  margin: 10px; }
+
+.alert {
+  padding: 5px 15px;
+  margin: 10px; }
+
+.alert--danger, .btn--danger {
+  background: #befccc;
+  border: 1px solid #0b6c21;
+  color: #107c22;
+  font-size: 17px; }
+  .alert--danger span, .btn--danger span {
+    font-style: italic; }
+
+.alert--danger {
+  background: #befccc;
+  border: 1px solid #0b6c21;
+  color: #107c22;
+  font-size: 17px; }
+
+.btn--danger {
+  background: #befccc;
+  border: 1px solid #0b6c21;
+  color: #107c22;
+  font-size: 17px; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,10 @@
+$primary_color: green;
+
+.navigation {
+  $nav-bg: #444;
+  background: $nav-bg;
+}
+
+body {
+  background: $primary-color;
+}

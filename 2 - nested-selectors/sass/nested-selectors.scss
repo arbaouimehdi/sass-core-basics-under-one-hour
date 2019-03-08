@@ -1,0 +1,21 @@
+// .main-content p {
+//   color: red;
+// }
+
+// .main-content h1 {
+//   color: green;
+// }
+
+.main-content {
+  p {
+    color: red;
+  }
+
+  h1 {
+    color: green;
+  }
+
+  .main-content--dark & {
+    background: #000;
+  }
+}

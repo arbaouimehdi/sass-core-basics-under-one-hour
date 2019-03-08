@@ -1,0 +1,8 @@
+.alert {
+  padding: 5px 15px;
+  margin: 10px;
+}
+
+.alert--danger {
+  @include danger(15px, #d0fed9);
+}

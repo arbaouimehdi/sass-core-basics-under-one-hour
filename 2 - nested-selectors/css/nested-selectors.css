@@ -1,0 +1,8 @@
+.main-content p {
+  color: red; }
+.main-content h1 {
+  color: green; }
+.main-content--dark .main-content {
+  background: #000; }
+
+/*# sourceMappingURL=nested-selectors.css.map */
